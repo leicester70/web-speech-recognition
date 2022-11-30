@@ -90,7 +90,6 @@ const Dictaphone = () => {
                 <p>{returnData("botcheck")}%</p>
                 <LinearProgress variant="determinate" thick size={100} value={returnData("botcheck")} />
             </div>
-            <hr className='divider'></hr>
             <h1>Captured Text</h1>
             <p>word count: {transcript.length !== 0 ? returnData("wordCount") : 0}</p>
             <p className="transcript-capture">{transcript}</p>
