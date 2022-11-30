@@ -1,23 +1,15 @@
-import logo from './logo.svg';
+import SpeechRecognition, { useSpeechRecognition } from 'react-speech-recognition';
+import Dictaphone from "./components/Dictaphone/Dictaphone"
+
 import './App.css';
+import '@fontsource/roboto/300.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="app">
+      <div className="content">
+        <Dictaphone></Dictaphone>
+      </div>
     </div>
   );
 }
