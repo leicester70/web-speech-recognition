@@ -1,5 +1,5 @@
 # What is this?
-Nothing much, I did this to help my friend.
+Nothing much really. I did this to help out my friend with his polytechnic assignment.
 
 ## Getting Started with Create React App
 
